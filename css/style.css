@@ -1,0 +1,116 @@
+
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+
+
+}
+
+
+
+li {
+  float: left;
+   background-color: white;
+  color: black;
+}
+
+li a {
+  display: block;
+  color: gray;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+li a:hover {
+  background-color: rgb(74,170,165);
+  text-decoration: none;
+  color: black;
+}
+.active {
+
+font-weight: bold;
+}
+
+.name {
+background-color: rgb(74,170,165);
+color:white;
+
+}
+
+
+
+h1 {
+color:rgb(74,170,165);
+font-family: 'Georgia', Times, Times New Roman, serif;
+
+
+}
+
+.responsive  {
+
+  width: 50%;
+  max-width: 400px;
+  height: auto;
+  float:left; 
+  display:block;
+  padding:0 20px 10px 0;
+  
+
+}
+
+p {
+
+font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+}
+ 
+
+footer {
+
+position:sticky;
+bottom:0;
+z-index:2;
+
+}
+
+.gallery {
+
+ margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+img {
+   width:100%;
+  height:100%;
+  
+} 
+
+.box1{
+  margin:20px;
+  width:40%;
+  height:40%;
+  background-color: teal;
+  position:relative;
+}
+.text{
+  width:100%;
+  height:45px;
+  padding: 10px 0px; 
+  background-color:rgb(74,170,165);
+  text-align: center;
+  color:white;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  font-weight:bold;
+  position: absolute;
+  z-index: 1;
+  top: 70%;
+}
